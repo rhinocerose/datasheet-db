@@ -1,0 +1,382 @@
+# Created by Ultra Librarian Gold 8.3.307 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'SC0915_RPI.pac';
+Grid Mil;
+Layer 1;
+Smd '1' 126 63 -0 R0 (-381.5 950);
+Layer 1;
+Smd '2' 126 63 -0 R0 (-381.5 850);
+Layer 1;
+Smd '3' 126 63 -0 R0 (-381.5 750);
+Layer 1;
+Smd '4' 126 63 -0 R0 (-381.5 650);
+Layer 1;
+Smd '5' 126 63 -0 R0 (-381.5 550);
+Layer 1;
+Smd '6' 126 63 -0 R0 (-381.5 450);
+Layer 1;
+Smd '7' 126 63 -0 R0 (-381.5 350);
+Layer 1;
+Smd '8' 126 63 -0 R0 (-381.5 250);
+Layer 1;
+Smd '9' 126 63 -0 R0 (-381.5 150);
+Layer 1;
+Smd '10' 126 63 -0 R0 (-381.5 50);
+Layer 1;
+Smd '11' 126 63 -0 R0 (-381.5 -50);
+Layer 1;
+Smd '12' 126 63 -0 R0 (-381.5 -150);
+Layer 1;
+Smd '13' 126 63 -0 R0 (-381.5 -250);
+Layer 1;
+Smd '14' 126 63 -0 R0 (-381.5 -350);
+Layer 1;
+Smd '15' 126 63 -0 R0 (-381.5 -450);
+Layer 1;
+Smd '16' 126 63 -0 R0 (-381.5 -550);
+Layer 1;
+Smd '17' 126 63 -0 R0 (-381.5 -650);
+Layer 1;
+Smd '18' 126 63 -0 R0 (-381.5 -750);
+Layer 1;
+Smd '19' 126 63 -0 R0 (-381.5 -850);
+Layer 1;
+Smd '20' 126 63 -0 R0 (-381.5 -950);
+Layer 1;
+Smd '21' 126 63 -0 R180 (381.5 -950);
+Layer 1;
+Smd '22' 126 63 -0 R180 (381.5 -850);
+Layer 1;
+Smd '23' 126 63 -0 R180 (381.5 -750);
+Layer 1;
+Smd '24' 126 63 -0 R180 (381.5 -650);
+Layer 1;
+Smd '25' 126 63 -0 R180 (381.5 -550);
+Layer 1;
+Smd '26' 126 63 -0 R180 (381.5 -450);
+Layer 1;
+Smd '27' 126 63 -0 R180 (381.5 -350);
+Layer 1;
+Smd '28' 126 63 -0 R180 (381.5 -250);
+Layer 1;
+Smd '29' 126 63 -0 R180 (381.5 -150);
+Layer 1;
+Smd '30' 126 63 -0 R180 (381.5 -50);
+Layer 1;
+Smd '31' 126 63 -0 R180 (381.5 50);
+Layer 1;
+Smd '32' 126 63 -0 R180 (381.5 150);
+Layer 1;
+Smd '33' 126 63 -0 R180 (381.5 250);
+Layer 1;
+Smd '34' 126 63 -0 R180 (381.5 350);
+Layer 1;
+Smd '35' 126 63 -0 R180 (381.5 450);
+Layer 1;
+Smd '36' 126 63 -0 R180 (381.5 550);
+Layer 1;
+Smd '37' 126 63 -0 R180 (381.5 650);
+Layer 1;
+Smd '38' 126 63 -0 R180 (381.5 750);
+Layer 1;
+Smd '39' 126 63 -0 R180 (381.5 850);
+Layer 1;
+Smd '40' 126 63 -0 R180 (381.5 950);
+Layer 1;
+Smd 'TP2' 59 59 -0 R0 (39.4 956.7);
+Layer 1;
+Smd 'TP3' 59 59 -0 R0 (-39.4 956.7);
+Layer 1;
+Smd 'TP4' 59 59 -0 R0 (-98.4 689);
+Layer 1;
+Smd 'TP5' 59 59 -0 R0 (-98.4 590.6);
+Layer 1;
+Smd 'TP6' 59 59 -0 R0 (-98.4 492.2);
+Layer 1;
+Smd 'A' 43 71 -0 R0 (-107.3 944.9);
+Layer 1;
+Smd 'B' 43 71 -0 R0 (107.3 944.9);
+Layer 1;
+Smd 'C' 41 57 -0 R0 (-95.5 825.6);
+Layer 1;
+Smd 'D' 41 57 -0 R0 (95.5 825.6);
+Layer 1;
+Smd 'D2' 126 63 -0 R90 (0 -972.4);
+Layer 1;
+Smd 'D1' 126 63 -0 R90 (-100 -972.4);
+Layer 1;
+Smd 'D3' 126 63 -0 R90 (100 -972.4);
+Layer 1;
+Smd 'TP1' 59 59 -0 R0 (0 826.8);
+Layer 21;
+Wire 6 (418 5) (418 -5);
+Wire 6 (418 105) (418 95);
+Wire 6 (418 205) (418 195);
+Wire 6 (418 305) (418 295);
+Wire 6 (418 405) (418 395);
+Wire 6 (418 505) (418 495);
+Wire 6 (418 605) (418 595);
+Wire 6 (418 705) (418 695);
+Wire 6 (418 805) (418 795);
+Wire 6 (418 905) (418 895);
+Wire 6 (-45 -1009) (-55 -1009);
+Wire 6 (-145 -1009) (-418 -1009);
+Wire 6 (55 -1009) (45 -1009);
+Wire 6 (-162 1009) (-162 1060);
+Wire 6 (-162 1060) (162 1060);
+Wire 6 (162 1060) (162 1009);
+Wire 6 (162 1009) (418 1009);
+Wire 6 (418 1009) (418 995);
+Wire 6 (418 -1009) (145 -1009);
+Wire 6 (-418 -1009) (-418 -995);
+Wire 6 (-418 1009) (-162 1009);
+Wire 6 (-418 995) (-418 1009);
+Wire 6 (-418 895) (-418 905);
+Wire 6 (-418 795) (-418 805);
+Wire 6 (-418 695) (-418 705);
+Wire 6 (-418 595) (-418 605);
+Wire 6 (-418 495) (-418 505);
+Wire 6 (-418 395) (-418 405);
+Wire 6 (-418 295) (-418 305);
+Wire 6 (-418 195) (-418 205);
+Wire 6 (-418 95) (-418 105);
+Wire 6 (-418 -5) (-418 5);
+Wire 6 (-418 -105) (-418 -95);
+Wire 6 (-418 -205) (-418 -195);
+Wire 6 (-418 -305) (-418 -295);
+Wire 6 (-418 -405) (-418 -395);
+Wire 6 (-418 -505) (-418 -495);
+Wire 6 (-418 -605) (-418 -595);
+Wire 6 (-418 -705) (-418 -695);
+Wire 6 (-418 -805) (-418 -795);
+Wire 6 (-418 -905) (-418 -895);
+Wire 6 (418 -995) (418 -1009);
+Wire 6 (418 -895) (418 -905);
+Wire 6 (418 -795) (418 -805);
+Wire 6 (418 -695) (418 -705);
+Wire 6 (418 -595) (418 -605);
+Wire 6 (418 -495) (418 -505);
+Wire 6 (418 -395) (418 -405);
+Wire 6 (418 -295) (418 -305);
+Wire 6 (418 -195) (418 -205);
+Wire 6 (418 -95) (418 -105);
+Wire 6 (-556 950) -180 (-566 950);
+Wire 6 (-566 950) -180 (-556 950);
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-68 -25);
+Layer 47;
+Wire 6 (-382 950) (-382 1065);
+Wire 6 (382 950) (382 1065);
+Wire 6 (-382 1050) (382 1050);
+Wire 6 (-382 1050) (-372 1055);
+Wire 6 (-382 1050) (-372 1045);
+Wire 6 (-372 1055) (-372 1045);
+Wire 6 (382 1050) (372 1055);
+Wire 6 (382 1050) (372 1045);
+Wire 6 (372 1055) (372 1045);
+Wire 6 (-382 950) (-496 950);
+Wire 6 (-382 850) (-496 850);
+Wire 6 (-482 950) (-482 1000);
+Wire 6 (-482 850) (-482 800);
+Wire 6 (-482 950) (-486 960);
+Wire 6 (-482 950) (-476 960);
+Wire 6 (-486 960) (-476 960);
+Wire 6 (-482 850) (-486 840);
+Wire 6 (-482 850) (-476 840);
+Wire 6 (-486 840) (-476 840);
+Wire 6 (414 1004) (496 1004);
+Wire 6 (414 -1004) (496 -1004);
+Wire 6 (482 1004) (482 -1004);
+Wire 6 (482 1004) (476 994);
+Wire 6 (482 1004) (486 994);
+Wire 6 (476 994) (486 994);
+Wire 6 (482 -1004) (476 -994);
+Wire 6 (482 -1004) (486 -994);
+Wire 6 (476 -994) (486 -994);
+Wire 6 (-414 -1004) (-414 -1119);
+Wire 6 (414 -1004) (414 -1119);
+Wire 6 (-414 -1104) (414 -1104);
+Wire 6 (-414 -1104) (-404 -1099);
+Wire 6 (-414 -1104) (-404 -1109);
+Wire 6 (-404 -1099) (-404 -1109);
+Wire 6 (414 -1104) (404 -1099);
+Wire 6 (414 -1104) (404 -1109);
+Wire 6 (404 -1099) (404 -1109);
+Change Size 50;
+Change Ratio 6;
+Text 'Default Padstyle: RX126Y63D0T' SR0 (-621 -1364);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 1 Padstyle: OX60Y90D30P' SR0 (-583 -1544);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 2 Padstyle: OX90Y60D30P' SR0 (-583 -1604);
+Change Size 25;
+Change Ratio 4;
+Text '0.763in/19.38mm' SR0 (-159 1070);
+Change Size 25;
+Change Ratio 4;
+Text '0.1in/2.54mm' SR0 (-752 888);
+Change Size 25;
+Change Ratio 4;
+Text '2.008in/51.003mm' SR0 (502 -12);
+Change Size 25;
+Change Ratio 4;
+Text '0.827in/21.006mm' SR0 (-170 -1149);
+Layer 51;
+Wire 6 (-158 1055) (-158 1004);
+Wire 6 (-158 1055) (158 1055);
+Wire 6 (158 1055) (158 1004);
+Wire 6 (-414 -1004) (414 -1004);
+Wire 6 (414 -1004) (414 1004);
+Wire 6 (414 1004) (-414 1004);
+Wire 6 (-414 1004) (-414 -1004);
+Wire 0 (-316 950) -180 (-322 950);
+Wire 0 (-322 950) -180 (-316 950);
+Wire 6 (12 1004) -180 (-12 1004);
+Layer 48;
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 25;
+
+Edit 'SC0915.sym';
+Grid Mil;
+Layer 94;
+Pin 'UART0_TX/I2C0_SDA/SPI0_RX/GP0' I/O None Middle R0 Both 0 (100 0)
+Pin 'UART0_RX/I2C0_SCL/GPI0_CSn/GP1' I/O None Middle R0 Both 0 (100 -100)
+Pin 'GND_2' Pas None Middle R0 Both 0 (100 -200)
+Pin 'I2C1_SDA/SPI0_SCK/GP2' I/O None Middle R0 Both 0 (100 -300)
+Pin 'I2C1_SCL/SPI0_TX/GP3' I/O None Middle R0 Both 0 (100 -400)
+Pin 'UART1_TX/I2C0_SDA/SPI0_RX/GP4' I/O None Middle R0 Both 0 (100 -500)
+Pin 'UART1_RX/I2C0_SCL/SPI0_CSn/GP5' I/O None Middle R0 Both 0 (100 -600)
+Pin 'GND_3' Pas None Middle R0 Both 0 (100 -700)
+Pin 'I2C1_SDA/SPI0_SCK/GP6' I/O None Middle R0 Both 0 (100 -800)
+Pin 'I2C1_SCL/SPI0_TX/GP7' I/O None Middle R0 Both 0 (100 -900)
+Pin 'UART1_TX/I2C0_SDA/SPI1_RX/GP8' I/O None Middle R0 Both 0 (100 -1000)
+Pin 'UART1_RX/I2C0_SCL/SPI1_CSn/GP9' I/O None Middle R0 Both 0 (100 -1100)
+Pin 'GND_4' Pas None Middle R0 Both 0 (100 -1200)
+Pin 'I2C1_SDA/SPI1_SCK/GP10' I/O None Middle R0 Both 0 (100 -1300)
+Pin 'I2C1_SCL/SPI1_TX/GP11' I/O None Middle R0 Both 0 (100 -1400)
+Pin 'UART0_TX/I2C0_SDA/GPI1_RX/GP12' I/O None Middle R0 Both 0 (100 -1500)
+Pin 'UART0_RX/I2C0_SCL/SPI1_CSn/GP13' I/O None Middle R0 Both 0 (100 -1600)
+Pin 'GND_5' Pas None Middle R0 Both 0 (100 -1700)
+Pin 'I2C1_SDA/SPI1_SCK/GP14' I/O None Middle R0 Both 0 (100 -1800)
+Pin 'I2C1_SCL/SPI1_TX/GP15' I/O None Middle R0 Both 0 (100 -1900)
+Pin 'UART0_TX/I2C0_SDA/SPI0_RX/GP16' I/O None Middle R0 Both 0 (100 -2000)
+Pin 'UART0_RX/I2C0_SCL/SPI0_CSn/GP17' I/O None Middle R0 Both 0 (100 -2100)
+Pin 'GND_6' Pas None Middle R0 Both 0 (100 -2200)
+Pin 'I2C1_SDA/SPI0_SCK/GP18' I/O None Middle R0 Both 0 (100 -2300)
+Pin 'I2C1_SCL/SPI0_TX/GP19' I/O None Middle R0 Both 0 (100 -2400)
+Pin 'I2C0_SDA/GP20' I/O None Middle R0 Both 0 (100 -2500)
+Pin 'I2C0_SCL/GP21' I/O None Middle R180 Both 0 (4900 -2600)
+Pin 'GND_7' Pas None Middle R180 Both 0 (4900 -2500)
+Pin 'GP22' I/O None Middle R180 Both 0 (4900 -2400)
+Pin 'RUN' Pas None Middle R180 Both 0 (4900 -2300)
+Pin 'I2C1_SDA/ADC0/GP26' I/O None Middle R180 Both 0 (4900 -2200)
+Pin 'I2C1_SCL/ADC1/GP27' I/O None Middle R180 Both 0 (4900 -2100)
+Pin 'AGND/GND' Pas None Middle R180 Both 0 (4900 -2000)
+Pin 'ADC2/GP28' I/O None Middle R180 Both 0 (4900 -1900)
+Pin 'ADC_VREF' Pwr None Middle R180 Both 0 (4900 -1800)
+Pin '3V3(OUT)' Out None Middle R180 Both 0 (4900 -1700)
+Pin '3V3_EN' Pwr None Middle R180 Both 0 (4900 -1600)
+Pin 'GND_8' Pas None Middle R180 Both 0 (4900 -1500)
+Pin 'VSYS' Pwr None Middle R180 Both 0 (4900 -1400)
+Pin 'VBUS' Pwr None Middle R180 Both 0 (4900 -1300)
+Pin 'SWCLK' Pas None Middle R180 Both 0 (4900 -1200)
+Pin 'GND_9' Pas None Middle R180 Both 0 (4900 -1100)
+Pin 'SWDIO' Pas None Middle R180 Both 0 (4900 -1000)
+Pin 'GND_10' Pas None Middle R180 Both 0 (4900 -900)
+Pin 'USB_DM' Pas None Middle R180 Both 0 (4900 -800)
+Pin 'USB_DP' Pas None Middle R180 Both 0 (4900 -700)
+Pin 'GPIO/SMPS' Pas None Middle R180 Both 0 (4900 -600)
+Pin 'GPIO25/LED' Pas None Middle R180 Both 0 (4900 -500)
+Pin 'BOOTSEL' Pas None Middle R180 Both 0 (4900 -400)
+Pin 'GND_11' Pas None Middle R180 Both 0 (4900 -300)
+Pin 'GND_12' Pas None Middle R180 Both 0 (4900 -200)
+Pin 'GND_13' Pas None Middle R180 Both 0 (4900 -100)
+Pin 'GND' Pas None Middle R180 Both 0 (4900 0)
+Wire 6 (300 200) (300 -2800);
+Wire 6 (300 -2800) (4700 -2800);
+Wire 6 (4700 -2800) (4700 200);
+Wire 6 (4700 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (2314 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (2289 259);
+
+Edit 'SC0915.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add SC0915 'A' Next  0 (0 0);
+Package 'SC0915_RPI';
+Technology '';
+Attribute Copyright 'Copyright (C) 2023 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name 'Raspberry Pi';
+Attribute Manufacturer_Part_Number 'SC0915';
+Connect 'A.UART0_TX/I2C0_SDA/SPI0_RX/GP0' '1';
+Connect 'A.UART0_RX/I2C0_SCL/GPI0_CSn/GP1' '2';
+Connect 'A.GND_2' '3';
+Connect 'A.I2C1_SDA/SPI0_SCK/GP2' '4';
+Connect 'A.I2C1_SCL/SPI0_TX/GP3' '5';
+Connect 'A.UART1_TX/I2C0_SDA/SPI0_RX/GP4' '6';
+Connect 'A.UART1_RX/I2C0_SCL/SPI0_CSn/GP5' '7';
+Connect 'A.GND_3' '8';
+Connect 'A.I2C1_SDA/SPI0_SCK/GP6' '9';
+Connect 'A.I2C1_SCL/SPI0_TX/GP7' '10';
+Connect 'A.UART1_TX/I2C0_SDA/SPI1_RX/GP8' '11';
+Connect 'A.UART1_RX/I2C0_SCL/SPI1_CSn/GP9' '12';
+Connect 'A.GND_4' '13';
+Connect 'A.I2C1_SDA/SPI1_SCK/GP10' '14';
+Connect 'A.I2C1_SCL/SPI1_TX/GP11' '15';
+Connect 'A.UART0_TX/I2C0_SDA/GPI1_RX/GP12' '16';
+Connect 'A.UART0_RX/I2C0_SCL/SPI1_CSn/GP13' '17';
+Connect 'A.GND_5' '18';
+Connect 'A.I2C1_SDA/SPI1_SCK/GP14' '19';
+Connect 'A.I2C1_SCL/SPI1_TX/GP15' '20';
+Connect 'A.UART0_TX/I2C0_SDA/SPI0_RX/GP16' '21';
+Connect 'A.UART0_RX/I2C0_SCL/SPI0_CSn/GP17' '22';
+Connect 'A.GND_6' '23';
+Connect 'A.I2C1_SDA/SPI0_SCK/GP18' '24';
+Connect 'A.I2C1_SCL/SPI0_TX/GP19' '25';
+Connect 'A.I2C0_SDA/GP20' '26';
+Connect 'A.I2C0_SCL/GP21' '27';
+Connect 'A.GND_7' '28';
+Connect 'A.GP22' '29';
+Connect 'A.RUN' '30';
+Connect 'A.I2C1_SDA/ADC0/GP26' '31';
+Connect 'A.I2C1_SCL/ADC1/GP27' '32';
+Connect 'A.AGND/GND' '33';
+Connect 'A.ADC2/GP28' '34';
+Connect 'A.ADC_VREF' '35';
+Connect 'A.3V3(OUT)' '36';
+Connect 'A.3V3_EN' '37';
+Connect 'A.GND_8' '38';
+Connect 'A.VSYS' '39';
+Connect 'A.VBUS' '40';
+Connect 'A.SWCLK' 'D1';
+Connect 'A.GND_9' 'D2';
+Connect 'A.SWDIO' 'D3';
+Connect 'A.GND_10' 'TP1';
+Connect 'A.USB_DM' 'TP2';
+Connect 'A.USB_DP' 'TP3';
+Connect 'A.GPIO/SMPS' 'TP4';
+Connect 'A.GPIO25/LED' 'TP5';
+Connect 'A.BOOTSEL' 'TP6';
+Connect 'A.GND_11' 'A';
+Connect 'A.GND_12' 'B';
+Connect 'A.GND_13' 'C';
+Connect 'A.GND' 'D';
