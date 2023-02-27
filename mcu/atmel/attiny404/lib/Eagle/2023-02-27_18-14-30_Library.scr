@@ -1,0 +1,175 @@
+# Created by Ultra Librarian Gold 8.3.307 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'SOIC14_SL_MCH.pac';
+Grid Mil;
+Layer 1;
+Smd '1' 59.0551 23.622 -0 R0 (-106.2992 150);
+Layer 1;
+Smd '2' 59.0551 23.622 -0 R0 (-106.2992 100);
+Layer 1;
+Smd '3' 59.0551 23.622 -0 R0 (-106.2992 50);
+Layer 1;
+Smd '4' 59.0551 23.622 -0 R0 (-106.2992 0);
+Layer 1;
+Smd '5' 59.0551 23.622 -0 R0 (-106.2992 -50);
+Layer 1;
+Smd '6' 59.0551 23.622 -0 R0 (-106.2992 -100);
+Layer 1;
+Smd '7' 59.0551 23.622 -0 R0 (-106.2992 -150);
+Layer 1;
+Smd '8' 59.0551 23.622 -0 R0 (106.2992 -150);
+Layer 1;
+Smd '9' 59.0551 23.622 -0 R0 (106.2992 -100);
+Layer 1;
+Smd '10' 59.0551 23.622 -0 R0 (106.2992 -50);
+Layer 1;
+Smd '11' 59.0551 23.622 -0 R0 (106.2992 0);
+Layer 1;
+Smd '12' 59.0551 23.622 -0 R0 (106.2992 50);
+Layer 1;
+Smd '13' 59.0551 23.622 -0 R0 (106.2992 100);
+Layer 1;
+Smd '14' 59.0551 23.622 -0 R0 (106.2992 150);
+Layer 47;
+Wire 6 (-106 150) (-196 150);
+Wire 6 (-106 100) (-196 100);
+Wire 6 (-186 150) (-181 160);
+Wire 6 (-181 160) (-191 160);
+Wire 6 (-191 160) (-186 150);
+Wire 6 (-186 150) (-186 200);
+Wire 6 (-186 100) (-181 90);
+Wire 6 (-181 90) (-191 90);
+Wire 6 (-191 90) (-186 100);
+Wire 6 (-186 100) (-186 50);
+Wire 6 (106 -150) (106 -230);
+Wire 6 (-106 -150) (-106 -230);
+Wire 6 (-106 -220) (-96 -225);
+Wire 6 (-96 -225) (-96 -215);
+Wire 6 (-96 -215) (-106 -220);
+Wire 6 (-106 -220) (-56 -220);
+Wire 6 (106 -220) (96 -225);
+Wire 6 (96 -225) (96 -215);
+Wire 6 (96 -215) (106 -220);
+Wire 6 (106 -220) (56 -220);
+Wire 6 (-77 170) (-77 285);
+Wire 6 (77 170) (77 285);
+Wire 6 (-77 270) (77 270);
+Wire 6 (-77 270) (-67 275);
+Wire 6 (-77 270) (-67 265);
+Wire 6 (-67 275) (-67 265);
+Wire 6 (77 270) (67 275);
+Wire 6 (77 270) (67 265);
+Wire 6 (67 275) (67 265);
+Wire 6 (77 170) (221 170);
+Wire 6 (77 -170) (221 -170);
+Wire 6 (206 170) (206 -170);
+Wire 6 (206 170) (201 160);
+Wire 6 (206 170) (211 160);
+Wire 6 (201 160) (211 160);
+Wire 6 (206 -170) (201 -160);
+Wire 6 (206 -170) (211 -160);
+Wire 6 (201 -160) (211 -160);
+Change Size 50;
+Change Ratio 6;
+Text 'Default Padstyle: RX59p06Y23p62D0T' SR0 (-735 -370);
+Change Size 50;
+Change Ratio 6;
+Text 'Pin 1 Padstyle: RX59p06Y23p62D0T' SR0 (-704 -430);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 1 Padstyle: OX60Y90D30P' SR0 (-583 -610);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 2 Padstyle: OX90Y60D30P' SR0 (-583 -670);
+Change Size 25;
+Change Ratio 4;
+Text '.05in/1.27mm' SR0 (-446 112);
+Change Size 25;
+Change Ratio 4;
+Text '.2125984in/5.4mm' SR0 (-170 -245);
+Change Size 25;
+Change Ratio 4;
+Text '0.154in/3.9mm' SR0 (-136 290);
+Change Size 25;
+Change Ratio 4;
+Text '0.341in/8.65mm' SR0 (226 -12);
+Layer 21;
+Wire 6 (-82 -175) (82 -175);
+Wire 6 (82 175) (-82 175);
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-68 -25);
+Layer 51;
+Wire 6 (-77 -170) (77 -170);
+Wire 6 (77 -170) (77 170);
+Wire 6 (77 170) (-77 170);
+Wire 6 (-77 170) (-77 -170);
+Wire 0 (-67 150) -180 (-67 150);
+Wire 0 (-67 150) -180 (-67 150);
+Wire 6 (12 170) -180 (-12 170);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 25;
+
+Edit 'ATTINY404-SSNR.sym';
+Grid Mil;
+Layer 94;
+Pin 'VDD' Pwr None Middle R0 Both 0 (100 0)
+Pin 'PA4' I/O None Middle R0 Both 0 (100 -100)
+Pin 'PA5' I/O None Middle R0 Both 0 (100 -200)
+Pin 'PA6' I/O None Middle R0 Both 0 (100 -300)
+Pin 'PA7' I/O None Middle R0 Both 0 (100 -400)
+Pin 'PB3' I/O None Middle R0 Both 0 (100 -500)
+Pin 'PB2' I/O None Middle R0 Both 0 (100 -600)
+Pin 'PB1' I/O None Middle R180 Both 0 (2300 -600)
+Pin 'PB0' I/O None Middle R180 Both 0 (2300 -500)
+Pin 'PA0/!RESET/UPDI' I/O None Middle R180 Both 0 (2300 -400)
+Pin 'PA1' I/O None Middle R180 Both 0 (2300 -300)
+Pin 'PA2' I/O None Middle R180 Both 0 (2300 -200)
+Pin 'PA3/EXTCLK' I/O None Middle R180 Both 0 (2300 -100)
+Pin 'GND' Pas None Middle R180 Both 0 (2300 0)
+Wire 6 (300 200) (300 -800);
+Wire 6 (300 -800) (2100 -800);
+Wire 6 (2100 -800) (2100 200);
+Wire 6 (2100 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (1014 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (989 259);
+
+Edit 'ATTINY404-SSNR.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add ATTINY404-SSNR 'A' Next  0 (0 0);
+Package 'SOIC14_SL_MCH';
+Technology '';
+Attribute Copyright 'Copyright (C) 2023 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name 'Microchip';
+Attribute Manufacturer_Part_Number 'ATTINY404-SSNR';
+Connect 'A.VDD' '1';
+Connect 'A.PA4' '2';
+Connect 'A.PA5' '3';
+Connect 'A.PA6' '4';
+Connect 'A.PA7' '5';
+Connect 'A.PB3' '6';
+Connect 'A.PB2' '7';
+Connect 'A.PB1' '8';
+Connect 'A.PB0' '9';
+Connect 'A.PA0/!RESET/UPDI' '10';
+Connect 'A.PA1' '11';
+Connect 'A.PA2' '12';
+Connect 'A.PA3/EXTCLK' '13';
+Connect 'A.GND' '14';
