@@ -19,7 +19,7 @@
 
 ## Pinouts
 ![](img/pinout_legend.png)
-![](nucleo_l053r8_top_left.png)
-![](nucleo_l053r8_top_right.png)
-![](nucleo_l053r8_mopho_left.png)
-![](nucleo_l053r8_mopho_right.png)
+![](img/nucleo_l053r8_top_left.png)
+![](img/nucleo_l053r8_top_right.png)
+![](img/nucleo_l053r8_mopho_left.png)
+![](img/nucleo_l053r8_mopho_right.png)
