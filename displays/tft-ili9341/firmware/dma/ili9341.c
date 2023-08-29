@@ -3,6 +3,8 @@
  *
  *  Created on: Nov 28, 2019
  *      Author: andrew
+ * 
+ * Based on https://github.com/ardnew/ILI9341-STM32-HAL/tree/master
  */
 
 // ----------------------------------------------------------------- includes --
