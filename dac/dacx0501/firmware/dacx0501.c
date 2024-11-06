@@ -37,7 +37,6 @@ void dacx0501_setGain(DACx0501_HandleTypeDef *DACx0501, DACx0501_VRef_Gain refmo
 	dacx0501_tx_buf[DACx0501_LSB] = (uint8_t)((uint16_t)refmode & 0x00FF);
 
 	dacx0501_write(DACx0501);
-	//HAL_I2C_Master_Transmit(DACx0501->hi2c, DACx0501->i2cAddress, dacx0501_tx_buf, 3, DAC_I2C_TIMEOUT);
 }
 
 
@@ -51,17 +50,14 @@ void dacx0501_setValue(DACx0501_HandleTypeDef *DACx0501, uint16_t value) {
 	if (value > DACx0501->max_val) value = DACx0501->max_val;
 	switch(DACx0501->type) {
 		case DAC60501:
-			//if (value > 4095) value = DACx0501->max_val;
 			dacx0501_tx_buf[DACx0501_MSB] = 0xFF00 | (value << 4);
 			dacx0501_tx_buf[DACx0501_LSB] = 0x00F0 | (value << 4);
 			break;
 		case DAC70501:
-			//if (value > 16383) value = DACx0501->max_val;
 			dacx0501_tx_buf[DACx0501_MSB] = (0xFF00 | (value << 2) >> 8);
 			dacx0501_tx_buf[DACx0501_LSB] = 0x00FC | (value << 2);
 			break;
 		case DAC80501:
-			//if (value > 65535) value = DACx0501->max_val;
 			dacx0501_tx_buf[DACx0501_MSB] = 0xFF00 | (value);
 			dacx0501_tx_buf[DACx0501_LSB] = 0x00FF | (value);
 			break;
@@ -70,5 +66,4 @@ void dacx0501_setValue(DACx0501_HandleTypeDef *DACx0501, uint16_t value) {
 	}
 
 	dacx0501_write(DACx0501);
-	//HAL_I2C_Master_Transmit(DACx0501->hi2c, DACx0501->i2cAddress, dacx0501_tx_buf, 3, DAC_I2C_TIMEOUT);
 }
