@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCA6424ARGJR
+D TCA6424ARGJR, Input Output Controller, 32-Pin UQFN
+K
+F http://www.ti.com/lit/ds/symlink/tca6424a.pdf
+$ENDCMP
+#
+#End Doc Library

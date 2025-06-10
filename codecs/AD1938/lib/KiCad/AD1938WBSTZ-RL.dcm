@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD1938WBSTZ-RL
+D General Purpose Audio Codec 4ADC / 8DAC Ch Automotive 48-Pin LQFP T/R
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD1938.pdf
+$ENDCMP
+#
+#End Doc Library

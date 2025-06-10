@@ -8,7 +8,24 @@
 #ifndef INC_DACx0501_H_
 #define INC_DACx0501_H_
 
+
+#define STM32H7
+
+#if defined (STM32L4)
+#include "stm32l4xx_hal.h"
+#elif defined(STM32F0)
+#include "stm32f0xx_hal.h"
+#elif defined(STM32F4)
+#include "stm32f4xx_hal.h"
+#elif defined(STM32G4)
+#include "stm32g4xx_hal.h"
+#elif defined(STM32G0)
+#include "stm32g0xx_hal.h"
+#elif defined(STM32L0)
 #include "stm32l0xx_hal.h"
+#elif defined(STM32H7)
+#include "stm32h7xx_hal.h"
+#endif
 
 // Registers, commands, etc. Don't cares are set high unless they're intersecting with a channel code.
 
@@ -73,19 +90,20 @@ typedef struct DACx0501_HandleTypeDef {
 	I2C_HandleTypeDef*   hi2c;
 	DACx0501_Address     i2cAddress;
 	DACx0501_Type        type;
+	uint16_t             default_val;
 	uint16_t			 max_val;
 } DACx0501_HandleTypeDef;
 
 /* ~ Function documentation is in .cpp ~ */
 
 // Constructors
-void dacx0501_init(DACx0501_HandleTypeDef *DACx0501, I2C_HandleTypeDef *hi2c, DACx0501_Type type, DACx0501_Address address);
+void dacx0501_init(DACx0501_HandleTypeDef *dac, I2C_HandleTypeDef *hi2c, DACx0501_Type type, DACx0501_Address address);
 
-void dacx0501_setDAC(DACx0501_HandleTypeDef *DACx0501, uint16_t value);
-void dacx0501_write(DACx0501_HandleTypeDef *DACx0501);
-void dacx0501_setGain(DACx0501_HandleTypeDef *DACx0501, DACx0501_VRef_Gain refmode);
-
-void dacx0501_setValue(DACx0501_HandleTypeDef *DACx0501, uint16_t value);
-
+void dacx0501_setDAC(DACx0501_HandleTypeDef *dac, uint16_t value);
+void dacx0501_write(DACx0501_HandleTypeDef *dac);
+void dacx0501_setGain(DACx0501_HandleTypeDef *dac, DACx0501_VRef_Gain refmode);
+void dacx0501_setDefault(DACx0501_HandleTypeDef *dac, uint16_t value);
+void dacx0501_setValue(DACx0501_HandleTypeDef *dac, uint16_t value);
+void dacx0501_readRegister(DACx0501_HandleTypeDef *dac, uint8_t command);
 
 #endif /* INC_DACx0501_H_ */
