@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DAC63204RTET
+D Digital to Analog Converters - DAC 12-bit 4-channel voltage/current output smart DAC with Hi-Z, EEPROM and waveform generator 16-WQFN -40 to 125
+K
+F https://www.ti.com/lit/ds/symlink/dac63204.pdf
+$ENDCMP
+#
+#End Doc Library

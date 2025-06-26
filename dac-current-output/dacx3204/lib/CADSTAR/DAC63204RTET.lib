@@ -1,0 +1,16 @@
+.DAC63204RTET :1 ;Digital to Analog Converters - DAC 12-bit 4-channel voltage/current output smart DAC with Hi-Z, EEPROM and waveform generator 16-WQFN -40 to 125
+QFN50P300X300X80-17N-D
+*STM IC
+*NGS
+*PLB 1="FB3" 2="OUT3" 3="OUT2" 4="FB2" 5="GPIO/SDO" 6="SCL/'SYNC'" 7="A0/SDI" 8="SDA/SCLK" 9="FB1" 10="OUT1" 11="OUT0" 12="FB0" 13="CAP" 14="AGND_1" 15="VDD" 16="VREF" 17="AGND_2"
+*MXP 17
+*DFN DAC63204RTET
+~!Mouser Part Number (595-DAC63204RTET)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DAC63204RTET?qs=doiCPypUmgHmvquVIBKsEw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (DAC63204RTET)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/dac63204.pdf)
+~!Height (0.8mm)
+~!3D_Model (DAC63204RTET)
+DAC63204RTET
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 12.1!U 11.1!U 10.1!U 9.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

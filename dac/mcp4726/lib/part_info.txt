@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MCP4726A0T-E/CH
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=5.1
+Released=2017-02-06 09:18:00
+Downloaded=2025-06-19 14:54:18
+3D=Y

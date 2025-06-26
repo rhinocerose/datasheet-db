@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MCP4726A0T-E_CH"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-17-15:28:20)
+    (mountForm default
+        (footprintRef "SOT95P270X145-6N")
+        (spec "System")
+    )
+)

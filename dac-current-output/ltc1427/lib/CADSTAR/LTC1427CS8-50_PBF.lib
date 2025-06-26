@@ -1,0 +1,16 @@
+.LTC1427CS8-50_PBF :1 ;LINEAR TECHNOLOGY - LTC1427CS8-50#PBF - DAC, CURRENT OUTPUT, 10BIT, NSOIC-10
+SOIC127P599X175-8N
+*STM IC
+*NGS
+*PLB 1="'SHDN'" 2="AD1" 3="AD0" 4="GND" 5="SDA" 6="SCL" 7="IOUT" 8="VCC"
+*MXP 8
+*DFN LTC1427CS8-50_PBF
+~!Mouser Part Number (584-LTC1427CS8-50PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC1427CS8-50PBF?qs=hVkxg5c3xu82jOB7HsPGTw%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LTC1427CS8-50#PBF)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-322129.pdf)
+~!Height (1.752mm)
+~!3D_Model (LTC1427CS8-50#PBF)
+LTC1427CS8-50_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DS4432U+T&R
+#/1190762/454976/2.50/8/2/Integrated Circuit
+DEF DS4432U+T&R IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "DS4432U+T&R" 950 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "https://pdfserv.maximintegrated.com/en/ds/DS4432.pdf" 950 0 50 H I L CNN
+F4 "MAXIM INTEGRATED PRODUCTS - DS4432U+T&R - Digital to Analogue Converter, 7 bit, I2C, Serial, 2.7V to 5.5V, SOP, 8 Pins" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "700-DS4432UT&R" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/DS4432U%2bTR?qs=wTZ%2FFzl837aX6EFuE2M5uA%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DS4432U+T&R" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SDA 1 0 0 200 R 50 50 0 0 P
+X SCL 2 0 -100 200 R 50 50 0 0 P
+X FS1 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1100 0 200 L 50 50 0 0 P
+X OUT1 7 1100 -100 200 L 50 50 0 0 P
+X OUT0 6 1100 -200 200 L 50 50 0 0 P
+X FS0 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

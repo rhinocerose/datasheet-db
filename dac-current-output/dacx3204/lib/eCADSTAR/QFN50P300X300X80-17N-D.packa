@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DAC63204RTET"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-07-31-13:56:42)
+    (mountForm default
+        (footprintRef "QFN50P300X300X80-17N-D")
+        (spec "System")
+    )
+)

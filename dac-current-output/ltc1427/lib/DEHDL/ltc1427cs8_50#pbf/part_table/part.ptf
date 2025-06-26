@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTC1427CS8_50#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LTC1427CS8-50#PBF" (!) = "", "SOIC127P599X175-8N", "Small Outline Packages", "584-LTC1427CS8-50PBF", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC1427CS8-50PBF?qs=hVkxg5c3xu82jOB7HsPGTw%3D%3D", "LINEAR TECHNOLOGY - LTC1427CS8-50#PBF - DAC, CURRENT OUTPUT, 10BIT, NSOIC-10", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-322129.pdf", "1.752 mm"
+END_PART
+
+END.

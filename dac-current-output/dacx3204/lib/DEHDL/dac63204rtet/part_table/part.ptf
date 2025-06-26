@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DAC63204RTET'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "DAC63204RTET" (!) = "", "QFN50P300X300X80-17N-D", "Quad Flat No-Lead", "595-DAC63204RTET", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DAC63204RTET?qs=doiCPypUmgHmvquVIBKsEw%3D%3D", "Digital to Analog Converters - DAC 12-bit 4-channel voltage/current output smart DAC with Hi-Z, EEPROM and waveform generator 16-WQFN -40 to 125", "https://www.ti.com/lit/ds/symlink/dac63204.pdf", "0.8 mm"
+END_PART
+
+END.

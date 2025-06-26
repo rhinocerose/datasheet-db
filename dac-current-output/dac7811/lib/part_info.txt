@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=DAC7811IDGSR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=5.1
+Released=2017-01-12 12:59:53
+Downloaded=2025-06-18 16:26:06
+3D=Y

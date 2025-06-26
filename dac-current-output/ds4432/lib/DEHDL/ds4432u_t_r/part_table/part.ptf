@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DS4432U_T_R'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "DS4432U+T&R" (!) = "", "SOP65P490X110-8N", "Small Outline Packages", "700-DS4432UT&R", "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/DS4432U%2bTR?qs=wTZ%2FFzl837aX6EFuE2M5uA%3D%3D", "MAXIM INTEGRATED PRODUCTS - DS4432U+T&R - Digital to Analogue Converter, 7 bit, I2C, Serial, 2.7V to 5.5V, SOP, 8 Pins", "https://pdfserv.maximintegrated.com/en/ds/DS4432.pdf", "1.1 mm"
+END_PART
+
+END.

@@ -1,0 +1,16 @@
+.MCP4726A0T-E_CH :1 ;12-bit DAC, NV, 1-channel, I2C, SOT23-6 Microchip MCP4726A0T-E/CH, 12 bit Serial DAC, 6-Pin SOT-23
+SOT95P270X145-6N
+*STM IC
+*NGS
+*PLB 1="VOUT" 2="VSS" 3="VDD" 4="SDA" 5="SCL" 6="VREF"
+*MXP 6
+*DFN MCP4726A0T-E_CH
+~!Mouser Part Number (579-MCP4726A0TECH)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4726A0T-E-CH?qs=ggQiQSXuoRUfw4Repi%252B5rQ%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP4726A0T-E/CH)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA17/911550.pdf)
+~!Height (1.45mm)
+~!3D_Model (MCP4726A0T-E_CH)
+MCP4726A0T-E_CH
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

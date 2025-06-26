@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP4726A0T-E_CH
+D 12-bit DAC, NV, 1-channel, I2C, SOT23-6 Microchip MCP4726A0T-E/CH, 12 bit Serial DAC, 6-Pin SOT-23
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA17/911550.pdf
+$ENDCMP
+#
+#End Doc Library

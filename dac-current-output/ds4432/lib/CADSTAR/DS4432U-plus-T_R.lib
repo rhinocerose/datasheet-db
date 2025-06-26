@@ -1,0 +1,16 @@
+.DS4432U-plus-T_R :1 ;MAXIM INTEGRATED PRODUCTS - DS4432U+T&R - Digital to Analogue Converter, 7 bit, I2C, Serial, 2.7V to 5.5V, SOP, 8 Pins
+SOP65P490X110-8N
+*STM IC
+*NGS
+*PLB 1="SDA" 2="SCL" 3="FS1" 4="GND" 5="FS0" 6="OUT0" 7="OUT1" 8="VCC"
+*MXP 8
+*DFN DS4432U-plus-T_R
+~!Mouser Part Number (700-DS4432UT&R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/DS4432U%2bTR?qs=wTZ%2FFzl837aX6EFuE2M5uA%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (DS4432U+T&R)
+~!Link Datasheet (https://pdfserv.maximintegrated.com/en/ds/DS4432.pdf)
+~!Height (1.1mm)
+~!3D_Model (DS4432U+T&R)
+DS4432U-plus-T_R
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

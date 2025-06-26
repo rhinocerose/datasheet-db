@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LTC1427CS8-50#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.2
+Released=2018-04-18 20:48:21
+Downloaded=2025-06-18 16:33:06
+3D=Y

@@ -1,0 +1,16 @@
+.DAC7811IDGSR :1 ;12-bit, single-channel, serial input multiplying DAC with 0.2us settling time
+SOP50P490X110-10N
+*STM IC
+*NGS
+*PLB 1="IOUT1" 2="IOUT2" 3="GND" 4="SCLK" 5="SDIN" 6="'SYNC'" 7="SDO" 8="VDD" 9="VREF" 10="RFB"
+*MXP 10
+*DFN DAC7811IDGSR
+~!Mouser Part Number (595-DAC7811IDGSR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DAC7811IDGSR?qs=rNOSrj6uCs1lDhXFni4UFg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (DAC7811IDGSR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/dac7811)
+~!Height (1.1mm)
+~!3D_Model (DAC7811IDGSR)
+DAC7811IDGSR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

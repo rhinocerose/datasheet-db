@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP4726A0T_E_CH'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP4726A0T-E/CH" (!) = "", "SOT95P270X145-6N", "SOT23 (6-Pin)", "579-MCP4726A0TECH", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP4726A0T-E-CH?qs=ggQiQSXuoRUfw4Repi%252B5rQ%3D%3D", "12-bit DAC, NV, 1-channel, I2C, SOT23-6 Microchip MCP4726A0T-E/CH, 12 bit Serial DAC, 6-Pin SOT-23", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA17/911550.pdf", "1.45 mm"
+END_PART
+
+END.
