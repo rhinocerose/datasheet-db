@@ -24,7 +24,7 @@ HAL_StatusTypeDef ADS131M08_Init(ADS131M08_HandleTypeDef *hads, SPI_HandleTypeDe
         return HAL_ERROR;
     }
 
-	if ((id >> 8) != 0x28) {
+	if (((id >> 8) != 0x28) & ((id >> 4) != 0x28)) {
 		return HAL_ERROR;
 	}
 
@@ -109,7 +109,7 @@ HAL_StatusTypeDef ADS131M08_WriteReg(ADS131M08_HandleTypeDef *hads, uint8_t reg,
     tx_buf[5] = 0x00;
 
     ADS131M08_CS_Enable(hads);
-    HAL_StatusTypeDef status = HAL_SPI_Transmit(hads->hspi, tx_buf, 4, 100);
+    HAL_StatusTypeDef status = HAL_SPI_Transmit(hads->hspi, tx_buf, 6, 100);
     ADS131M08_CS_Disable(hads);
 
     return status;
@@ -176,7 +176,7 @@ HAL_StatusTypeDef ADS131M08_Receive(ADS131M08_HandleTypeDef *hads, uint8_t *tx_b
 void ADS131M08_ConvertToVoltage(ADS131M08_HandleTypeDef *hads, uint8_t channel) {
     // Calculate voltage based on reference voltage and PGA setting
     float pga_gain = 1 << hads->pga; // Assuming PGA is set in powers of 2
-    hads->conv_voltage[channel] = (hads->raw_voltage[channel] * hads->vref) / (8388608.0f * pga_gain); // 8388608 = 2^23
+    hads->conv_voltage[channel] = ((hads->raw_voltage[channel] * hads->vref) / (8388608.0f * pga_gain)) *2 ; // 8388608 = 2^23
 }
 
 void ADS131M08_ConvertAllToVoltage(ADS131M08_HandleTypeDef *hads) {
